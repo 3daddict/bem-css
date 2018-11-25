@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$font-header: 'Lato', sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+}
+
+h1 {
+    font-size: calc(1rem + 5.5vw);
+}
+
+h2 {
+    font-size: calc(0.9rem + 4.5vw);
+}
+
+h3 {
+    font-size: calc(0.8rem + 4.0vw);
+}
+
+h4 {
+    font-size: calc(0.7rem + 3.5vw);
+}
+
+h5 {
+    font-size: calc(0.6rem + 3.0vw);
+}
+
+h6 {
+    font-size: calc(0.5rem + 2.0vw);
+}
+
+p {
+    font-family: $font-text;
+}
+
+/* media queries */
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+}

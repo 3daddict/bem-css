@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: calc(1rem + 5.5vw);
+}
+
+h2 {
+  font-size: calc(0.9rem + 4.5vw);
+}
+
+h3 {
+  font-size: calc(0.8rem + 4.0vw);
+}
+
+h4 {
+  font-size: calc(0.7rem + 3.5vw);
+}
+
+h5 {
+  font-size: calc(0.6rem + 3.0vw);
+}
+
+h6 {
+  font-size: calc(0.5rem + 2.0vw);
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* media queries */
+/*# sourceMappingURL=bem-css.css.map */
