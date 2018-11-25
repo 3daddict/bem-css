@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+// sass variables
 $font-header: 'Lato', sans-serif;
 $font-text: 'Source Sans Pro', sans-serif;
+$text-dark: #222;
+$text-light: #eee;
 
 h1,
 h2,
@@ -11,6 +14,8 @@ h4,
 h5,
 h6 {
   font-family: $font-header;
+  color: $text-dark;
+  margin: 0.4em 0;
 }
 
 h1 {
@@ -41,7 +46,7 @@ p {
     font-family: $font-text;
 }
 
-/* media queries */
+// media queries
 @media all and (min-width: 1280px) {
 
 }

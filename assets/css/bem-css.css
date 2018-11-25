@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 h1,
 h2,
@@ -7,6 +7,8 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
+  color: #222;
+  margin: 0.4em 0;
 }
 
 h1 {
@@ -36,6 +38,4 @@ h6 {
 p {
   font-family: "Source Sans Pro", sans-serif;
 }
-
-/* media queries */
 /*# sourceMappingURL=bem-css.css.map */
