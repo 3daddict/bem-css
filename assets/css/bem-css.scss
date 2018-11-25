@@ -2,11 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 // sass variables
+    //fonts
 $font-header: 'Lato', sans-serif;
 $font-text: 'Source Sans Pro', sans-serif;
 $text-dark: #222;
 $text-light: #eee;
+    //color pallette v1.0
+$blue-light: #54a0ff;
+$blue-dark: #2e86de;
+$green-light: #1dd1a1;
+$green-dark: #10ac84;
+$mint-light: #00d2d3;
+$mint-dark: #01a3a4;
+$orange-light: #f39c12;
+$orange-dark: #e67e22;
+$red-light: #e74c3c;
+$red-dark: #c0392b;
+$purple-light: #686de0;
+$purple-dark: #4834d4;
+$grey-light: #95a5a6;
+$grey-dark: #7f8c8d;
+$black-light: #4b4b4b;
+$black-dark: #3d3d3d;
 
+//stylesheet
+    //typography
 h1,
 h2,
 h3,
