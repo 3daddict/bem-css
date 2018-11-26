@@ -1,4 +1,4 @@
-# CSS-BEM
+# BEM-CSS
 CSS-BEM is a responsive boilerplate style sheet to speedup projects and styling. This is a work in progress so there will be changes over time.
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 # Dependencies 
@@ -12,7 +12,7 @@ To clone the repo open your terminal and enter: `git clone https://github.com/3d
 
 (Note: this is a work in progress, if you're looking for stable version, use the zipped download method)
 
-## Why use CSS-BEM?
+## Why use BEM-CSS?
 
 CSS-BEM is lightweight and uses Sass which makes modifications simple. It's programmed to be fully responsive and uses the BEM naming convention. For more info on why you should use BEM checkout: http://getbem.com/ for more info.
 
