@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+// sass variables
+    //fonts
+$font-header: 'Lato', sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+$text-dark: #222;
+$text-light: #eee;
+    //color pallette v1.0
+$blue-light: #54a0ff;
+$blue-dark: #2e86de;
+$green-light: #1dd1a1;
+$green-dark: #10ac84;
+$mint-light: #00d2d3;
+$mint-dark: #01a3a4;
+$orange-light: #f39c12;
+$orange-dark: #e67e22;
+$red-light: #e74c3c;
+$red-dark: #c0392b;
+$purple-light: #686de0;
+$purple-dark: #4834d4;
+$grey-light: #95a5a6;
+$grey-dark: #7f8c8d;
+$black-light: #4b4b4b;
+$black-dark: #3d3d3d;
+$white-light: #fff;
+$white-dark: #e2e2e2;
+
+//stylesheet
+    //typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+  color: $text-dark;
+  margin: 0.4em 0;
+}
+
+h1 {
+    font-size: calc(1rem + 5.5vw);
+}
+
+h2 {
+    font-size: calc(0.9rem + 4.5vw);
+}
+
+h3 {
+    font-size: calc(0.8rem + 4.0vw);
+}
+
+h4 {
+    font-size: calc(0.7rem + 3.5vw);
+}
+
+h5 {
+    font-size: calc(0.6rem + 3.0vw);
+}
+
+h6 {
+    font-size: calc(0.5rem + 2.0vw);
+}
+
+p {
+    font-family: $font-text;
+}
+
+//buttons
+.button {
+    display: inline-block;
+    height: calc(35px + 0.5vw);
+    padding: 0 20px;
+    font-family: $font-header;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.8em + 0.2vw);
+    color: #eee;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button--blue {
+    background-color: $blue-light;
+}
+
+.button--blue:hover {
+    background-color: $blue-dark;
+}
+
+.button--green {
+    background-color: $green-light;
+}
+
+.button--green:hover {
+    background-color: $green-dark;
+}
+
+.button--mint {
+    background-color: $mint-light;
+}
+
+.button--mint:hover {
+    background-color: $mint-dark;
+}
+
+.button--orange {
+    background-color: $orange-light;
+}
+
+.button--orange:hover {
+    background-color: $orange-dark;
+}
+
+.button--red {
+    background-color: $red-light;
+}
+
+.button--red:hover {
+    background-color: $red-dark;
+}
+
+.button--purple {
+    background-color: $purple-light;
+}
+
+.button--purple:hover {
+    background-color: $purple-dark;
+}
+
+.button--grey {
+    background-color: $grey-light;
+}
+
+.button--grey:hover {
+    background-color: $grey-dark;
+}
+
+.button--black {
+    background-color: $black-light;
+}
+
+.button--black:hover {
+    background-color: $black-dark;
+}
+
+.button--white {
+    background-color: $white-light;
+    color: $text-dark;
+}
+
+.button--white:hover {
+    background-color: $white-dark;
+}
+
+// media queries
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+    display: block;
+    margin:0.4em auto;
+}
