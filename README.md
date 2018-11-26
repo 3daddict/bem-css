@@ -32,7 +32,7 @@ Wanting to contribute? Please check the steps below.
 Happy coding!
 
 ## License
-All parts of css-bem are free to use under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+All parts of css-bem are free to use under the [open-source MIT license](https://github.com/3daddict/bem-css/blob/master/LICENSE).
 
 ## Acknowledgement
 
