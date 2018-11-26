@@ -38,4 +38,97 @@ h6 {
 p {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.button {
+  display: inline-block;
+  height: calc(35px + 0.5vw);
+  padding: 0 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: calc(0.8em + 0.2vw);
+  color: #eee;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button--blue {
+  background-color: #54a0ff;
+}
+
+.button--blue:hover {
+  background-color: #2e86de;
+}
+
+.button--green {
+  background-color: #1dd1a1;
+}
+
+.button--green:hover {
+  background-color: #10ac84;
+}
+
+.button--mint {
+  background-color: #00d2d3;
+}
+
+.button--mint:hover {
+  background-color: #01a3a4;
+}
+
+.button--orange {
+  background-color: #f39c12;
+}
+
+.button--orange:hover {
+  background-color: #e67e22;
+}
+
+.button--red {
+  background-color: #e74c3c;
+}
+
+.button--red:hover {
+  background-color: #c0392b;
+}
+
+.button--purple {
+  background-color: #686de0;
+}
+
+.button--purple:hover {
+  background-color: #4834d4;
+}
+
+.button--grey {
+  background-color: #95a5a6;
+}
+
+.button--grey:hover {
+  background-color: #7f8c8d;
+}
+
+.button--black {
+  background-color: #4b4b4b;
+}
+
+.button--black:hover {
+  background-color: #3d3d3d;
+}
+
+.button--white {
+  background-color: #fff;
+  color: #222;
+}
+
+.button--white:hover {
+  background-color: #e2e2e2;
+}
+
+@media all and (max-width: 480px) {
+  display: block;
+  margin: 0.4em auto;
+}
 /*# sourceMappingURL=bem-css.css.map */

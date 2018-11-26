@@ -1,0 +1,10 @@
+//buttons
+button {
+    display: inline-block;
+    height: calc(35px + 0.5vw);
+    padding: 0 20px;
+    font-family: $font-header;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: calc(0.8em + 0.2vw);
+}
