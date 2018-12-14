@@ -51,7 +51,7 @@ p {
   font-weight: 600;
   letter-spacing: 0.1rem;
   font-size: calc(0.8em + 0.2vw);
-  color: #eee;
+  color: #fff;
   border: none;
   border-radius: 3px;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
@@ -133,14 +133,29 @@ p {
 
 .card {
   position: relative;
-  max-width: 100%;
+  margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 10px;
+}
+
+.card-dark {
+  position: relative;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  background-color: #3d3d3d;
+  margin-bottom: 10px;
+}
+
+.card-dark h5, .card-dark p {
+  color: #eee;
 }
 
 .card__image-container {
-  display: block;
+  max-width: 100%;
 }
 
 .card__image {
@@ -148,12 +163,22 @@ p {
   padding: 0;
 }
 
-.card__content {
-  padding: 1.5rem;
+.card__image img {
+  width: 100%;
+  display: block;
 }
 
-@media all and (max-width: 480px) {
+.card__content {
+  padding: 1.0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.card__content-container button {
   display: block;
-  margin: 0.4em auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.card__title {
+  font-weight: 100;
 }
 /*# sourceMappingURL=bem-css.css.map */
